@@ -1,0 +1,23 @@
+{
+  "name": "ask-ai",
+  "version": "1.0.0",
+ 
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@ai-sdk/groq": "^0.0.3",
+    "@ai-sdk/openai": "^0.0.72",
+    "ai": "^3.4.33",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "groq-sdk": "^0.7.0",
+    "nodemon": "^3.1.7",
+    "zod": "^3.23.8"
+  }
+}
